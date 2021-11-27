@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React,{useState}from 'react'
+import Form from './Form'
+import Box from './Box'
+import './Style.css';
 function App() {
+  const [isForm,setIsForm]=useState(true)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div style={{display: 'flex',justifyContent: 'center',alignItems: 'center',marginTop:10}}>
+      
+        <button href="#" className="btn-primary" onClick={()=>setIsForm(true)}>Formu aç</button>
+        <button href="#" className="btn-secondary" onClick={()=>setIsForm(false)}>Nota Bak</button>
+      </div>
+
+      {isForm ? <Form/>:<Box/>}
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
