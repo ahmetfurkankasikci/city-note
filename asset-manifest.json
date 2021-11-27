@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/city-note/static/css/main.3d6f9524.chunk.css",
+    "main.js": "/city-note/static/js/main.fa13631a.chunk.js",
+    "main.js.map": "/city-note/static/js/main.fa13631a.chunk.js.map",
+    "runtime-main.js": "/city-note/static/js/runtime-main.48b69495.js",
+    "runtime-main.js.map": "/city-note/static/js/runtime-main.48b69495.js.map",
+    "static/js/2.ba1b9010.chunk.js": "/city-note/static/js/2.ba1b9010.chunk.js",
+    "static/js/2.ba1b9010.chunk.js.map": "/city-note/static/js/2.ba1b9010.chunk.js.map",
+    "static/js/3.9e2e7fa4.chunk.js": "/city-note/static/js/3.9e2e7fa4.chunk.js",
+    "static/js/3.9e2e7fa4.chunk.js.map": "/city-note/static/js/3.9e2e7fa4.chunk.js.map",
+    "index.html": "/city-note/index.html",
+    "static/css/main.3d6f9524.chunk.css.map": "/city-note/static/css/main.3d6f9524.chunk.css.map",
+    "static/js/2.ba1b9010.chunk.js.LICENSE.txt": "/city-note/static/js/2.ba1b9010.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48b69495.js",
+    "static/js/2.ba1b9010.chunk.js",
+    "static/css/main.3d6f9524.chunk.css",
+    "static/js/main.fa13631a.chunk.js"
+  ]
+}
